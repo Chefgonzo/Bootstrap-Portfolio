@@ -15,6 +15,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto+Slab|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
@@ -32,21 +33,23 @@
 <body>
 
     <!--Navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light" id="navigation">
-        <!-- Brand/logo -->
-        <h1 class="navbar-brand">Mike Gonzalez</h1>
-        <!--Nav Buttons-->
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navigation" style="background-color: #f05833">
+        <div class="container-fluid">
+            <!-- Brand/logo -->
+            <h1 class="navbar-brand ml-auto mr-auto" style="color: #ffffff">Mike Gonzalez</h1>
+            <!--Nav Buttons-->
+            <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: #ffffff">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html" style="color: #ffffff">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: #ffffff">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!--Start of the main container-->
@@ -54,40 +57,43 @@
         <!--Row 1-->
         <div class="row">
             <!--Column 1 - About ME-->
-            <div class="col-md-8" id="aboutme">
-                <h1 id="abouttitle">About Me</h1>
+            <div class="col-md-7" id="aboutme">
+                <h1 id="abouttitle" style="color: #0e4d6c">About Me</h1>
                 <hr>
-                <img src="assets/Images/mephoto.jpg" id="me" alt="Picture of Me">
-                <p1>Hello, my name is Mike Gonzalez. I recently completed the Coding Boot Camp at UCF for Full Stack Web Development.
+                <img src="assets/Images/mephoto.jpg" class="img-fluid" id="me" alt="Picture of Me">
+                <p>Hello, my name is Mike Gonzalez. I recently completed the Coding Boot Camp at UCF for Full Stack Web Development.
                     I live in Minneola, which is part of the greater Orlando area.
-                    <br>
-                    <br> I am new to coding, but it is something that I love. There is nothing better than being faced with a
-                    challenge and having the know how and creativity to solve it. Before coding I had a career in Sales,
-                    which was great, but it wasn't something that I always enjoyed doing. Go ahead and insert your favorite
-                    joke about salespeople here, believe me I've heard I'm all.
-                    <br>
-                    <br> When I'm not coding you can find me spending time with family, playing video games, cooking a gourmet
-                    meal, or having a nice relaxing day with my 2 dogs George and Rico. I'm also a really big sports fan
-                    and you'll often find me at the Orlando City soccer games. Go Lions!
-                    <br>
-                    <br>
-                    <p2>Thanks For Visiting and Happy Coding!!!</p2>
-                </p1>
+                </p>
+
+                <p> I am new to coding, but it is something that I love. There is nothing better than being faced with a challenge
+                    and having the know how and creativity to solve it. Before coding I had a career in Sales, which was
+                    great, but it wasn't something that I always enjoyed doing. Go ahead and insert your favorite joke about
+                    salespeople here, believe me I've heard I'm all.
+                </p>
+
+                <p> When I'm not coding you can find me spending time with family, playing video games, cooking a gourmet meal,
+                    or having a nice relaxing day with my 2 dogs George and Rico. I'm also a really big sports fan and you'll
+                    often find me at the Orlando City soccer games. Go Lions!
+                </p>
+
+                <p>Thanks For Visiting and Happy Coding!!!
+                </p>
+
             </div>
-            <!--Column 2-->
+            <!--Column 3-->
             <div class="col-md-4">
                 <!--Col2 SubRow 1 - Connect With ME-->
                 <div class="row">
                     <div class="col-md-12" id="web">
-                        <h1 id="connect">Connect With Me</h1>
+                        <h1 id="connect" style="color: #0e4d6c">Connect With Me</h1>
                         <hr>
                         <ul class="socialmedia">
-                            <li>
-                                <i class="fab fa-github"></i>
-                            </li>
-                            <li>
-                                <i class="fab fa-linkedin-in"></i>
-                            </li>
+                            <a href="">
+                                <img src="assets/Images/githubsmall.png" class="social" alt="github">
+                            </a>
+                            <a href="">
+                                <img src="assets/Images/linkedinsmall.png" class="social" alt="linkedin">
+                            </a>
                         </ul>
                     </div>
                 </div>
@@ -98,11 +104,11 @@
             </div>
         </div>
     </div>
-
+    </div>
     <!--Footer-->
-    <footer class="footer">
-        <p>
-            <i class="far fa-copyright"></i>Copyright Mike Gonzalez 2018</p>
+    <footer class="footer fixed-bottom" style="background-color: #0e4d6c">
+        <p1 style="color: #e9ddc7">
+            <i class="far fa-copyright" style="color: #e9ddc7"></i>Copyright Mike Gonzalez 2018</p1>
     </footer>
 
     <!--Java-->
