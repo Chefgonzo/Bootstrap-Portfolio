@@ -57,6 +57,7 @@ p {
     line-height: 34px;
     margin-bottom: 20px;
     margin-top: 18px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 #aboutme {
@@ -109,3 +110,38 @@ p {
     background-color: #0e4d6c;
 }
 
+/* portfolio.html */
+
+#proj {
+    position: relative;
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+  }
+  
+#proj img {
+    width: 100%;
+  }
+  
+#proj h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 92%;
+    padding: 15px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #0e4d6c;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+  }
+
+#titleportfolio {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;    
+}
+
+#portfolio {
+    border: 1.5px solid #2c4653;
+    padding: 40px 20px 10px 20px;
+    background-color: #ffffff;
+}
