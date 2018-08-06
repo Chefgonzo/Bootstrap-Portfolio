@@ -61,7 +61,7 @@
                     Contact Me
                 </h1>
                 <hr>
-                <form>
+                <form action="mailto:chefgonzo@gmail.com" method="post" enctype="text/plain">
                     <div class="form-row">
                         <!--First Name-->
                         <div class="form-group col-md-6">
@@ -77,17 +77,17 @@
                     <!--Email-->
                     <div class="form-group">
                         <label id="email">Email Address</label>
-                        <input type="email" class="form-control" placeholder="name@example.com">
+                        <input type="email" class="form-control" placeholder="name@example.com" required>
                     </div>
                     <!--Subject-->
                     <div class="form-group">
                         <label id="subject">Subject</label>
-                        <input type="text" class="form-control" placeholder="To what do I owe the plesaure?">
+                        <input type="text" class="form-control" placeholder="To what do I owe the plesaure?" required>
                     </div>
                     <!--Message-->
                     <div class="form-group">
                         <label id="message">Message</label>
-                        <textarea class="form-control" rows="6" placeholder="Write me a message"></textarea>
+                        <textarea class="form-control" rows="6" maxlength="5000" placeholder="Write me a message" required></textarea>
                     </div>
                     <div class="form-row">
                         <!--File Selector-->
@@ -101,7 +101,7 @@
                         <!--Submit Button-->
                         <div class="col-md-2">
                             <button type="submit" class="btn" style="color: #ffffff">Submit
-                                <i class="far fa-arrow-alt-circle-right"></i>
+                                <i class="far fa-arrow-alt-circle-right" style="color: #ffffff"></i>
                             </button>
                         </div>
                     </div>
