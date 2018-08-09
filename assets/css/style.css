@@ -131,28 +131,15 @@ p {
 
 /* portfolio.html */
 
-#proj {
-    position: relative;
-    width: 100%;
-    margin: 0px 0px 15px 0px;
-  }
-  
-#proj img {
-    width: 100%;
-  }
-  
-#proj h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 92%;
-    padding: 15px;
-    line-height: 30px;
-    color: #fff;
-    text-align: center;
-    background: #0e4d6c;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 22px;
-  }
+#card{
+    margin: 20px 0px;
+    border: 1px solid white;
+}
+
+.card-body {
+    background-color: #e9ddc7;
+    padding: 10px;
+}
 
 #titleportfolio {
     font-family: 'Roboto Slab', serif;
@@ -163,6 +150,23 @@ p {
     border: 1.5px solid #2c4653;
     padding: 40px 20px 10px 20px;
     background-color: #ffffff;
+}
+
+#portImg {
+    height: 220px;
+}
+
+h5 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#portBtn {
+    color: #ffffff;
+    margin: 0px 6px;
+    
 }
 
 
